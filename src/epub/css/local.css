@@ -79,3 +79,8 @@ p span.i2{
 	text-indent: -1em;
 }
 /* End poetry styles */
+
+article,
+section{
+	break-after: page;
+}
