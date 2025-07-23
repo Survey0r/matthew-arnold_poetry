@@ -90,6 +90,27 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End drama formatting */
 
+/* Ancient Greek choral section formatting */
+[epub|type~="z3998:song"] div + div{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] header p{
+	font-style: italic;
+	text-align: right;
+}
+
+[epub|type~="z3998:song"] header p::before{
+	content: "(";
+	font-style: normal;
+}
+
+[epub|type~="z3998:song"] header p::after{
+	content: ")";
+	font-style: normal;
+}
+/* End Ancient Greek choral section formatting */
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
