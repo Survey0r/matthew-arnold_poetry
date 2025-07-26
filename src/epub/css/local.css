@@ -195,3 +195,7 @@ article,
 section{
 	break-after: page;
 }
+
+q{
+	font-style: italic;
+}
