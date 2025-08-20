@@ -44,7 +44,7 @@ table[epub|type~="z3998:drama"]{
 	width: 100%;
 }
 
-[epub|type~="z3989:drama"] tr:first-child td{
+[epub|type~="z3998:drama"] tr:first-child td{
 	padding-top: 0;
 }
 
