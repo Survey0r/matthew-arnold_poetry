@@ -215,8 +215,7 @@ p span.i11{
 }
 /* End poetry styles */
 
-article,
-section{
+article{
 	break-after: page;
 }
 
