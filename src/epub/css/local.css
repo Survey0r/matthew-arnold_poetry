@@ -208,6 +208,36 @@ p span.i6{
 .dl2 span:first-child{
 	vertical-align: 100%;
 }
+
+.fl1 > p span:first-child{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+#balder-dead-3 > p:nth-of-type(3) span:first-child{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+.fl2 p + p span:first-child{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+.eol p span:nth-child(3){
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+.ll1 p span:last-child{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+.ll2 p span:nth-last-child(3){
+	padding-left: 2em;
+	text-indent: -1em;
+}
 /* End poetry styles */
 
 article{
