@@ -209,7 +209,7 @@ p span.i6{
 	vertical-align: 100%;
 }
 
-.fl1 > p span:first-child{
+.first-line-i1 > p span:first-child{
 	padding-left: 2em;
 	text-indent: -1em;
 }
@@ -219,17 +219,17 @@ p span.i6{
 	text-indent: -1em;
 }
 
-.eol p span:nth-child(3){
+.second-line-i1 p span:nth-child(3){
 	padding-left: 2em;
 	text-indent: -1em;
 }
 
-.ll1 p span:last-child{
+.final-line-i1 p span:last-child{
 	padding-left: 2em;
 	text-indent: -1em;
 }
 
-.ll2 p span:nth-last-child(3){
+.second-to-final-line-i1 p span:nth-last-child(3){
 	padding-left: 2em;
 	text-indent: -1em;
 }
