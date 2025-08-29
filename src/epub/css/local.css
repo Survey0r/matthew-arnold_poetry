@@ -219,11 +219,6 @@ p span.i6{
 	text-indent: -1em;
 }
 
-.fl2 p + p span:first-child{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
 .eol p span:nth-child(3){
 	padding-left: 2em;
 	text-indent: -1em;
